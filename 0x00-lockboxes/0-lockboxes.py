@@ -18,8 +18,6 @@ def canUnlockAll(boxes):
                     if key < len(boxes):
                         unlocked[key] = 1
         t += 1
-
-    print(unlocked)
     for u in unlocked:
         if u != 1:
             return False
